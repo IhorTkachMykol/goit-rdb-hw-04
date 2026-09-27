@@ -1,7 +1,7 @@
 # goit-rdb-hw-04 — DML, DDL та складні SQL-вирази (PostgreSQL, Olist)
 
 Домашнє завдання до Теми 4 курсу «Реляційні бази даних».
-Робота виконана в Google Colab notebook [`hw4_olist_dml_ddl_joins.ipynb`](hw4_olist_dml_ddl_joins.ipynb), усі клітинки збережено з output.
+Робота виконана в Google Colab notebook [`ДЗ_4_ТІМ.ipynb`](ДЗ_4_ТІМ.ipynb), усі клітинки збережено з output.
 
 ## Датасет
 
@@ -35,7 +35,7 @@ CSV не додані в репозиторій: разом це ≈ 60 МБ (б
 
 ## Як запустити
 
-1. Відкрити `hw4_olist_dml_ddl_joins.ipynb` у Google Colab (File → Upload notebook або «Open from GitHub»).
+1. Відкрити `ДЗ_4_ТІМ.ipynb` у Google Colab (File → Upload notebook або «Open from GitHub»).
 2. **Runtime → Restart session and run all.**
 
 Перша клітинка встановлює PostgreSQL у VM Colab (`apt-get install postgresql`), запускає сервіс, задає пароль користувачу `postgres` і підключається через SQLAlchemy + psycopg2:
@@ -62,7 +62,7 @@ engine = create_engine("postgresql+psycopg2://postgres:postgres@localhost/postgr
 
 ```
 goit-rdb-hw-04/
-├── hw4_olist_dml_ddl_joins.ipynb   # notebook з output
+├── ДЗ_4_ТІМ.ipynbb   # notebook з output
 ├── README.md
 ├── .gitignore
 └── data/
